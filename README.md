@@ -6,6 +6,12 @@ A system which calculates metrics and stats on stocks, which may be of interest 
 
 **NOTE**: `buffett` is currently a fun project intended to give me more exposure to Rust - the functionality inside is evidence of that!
 
+## Installing
+
+If you wish to use `buffett` locally, simply clone the repo and run the `install.sh` script.
+
+You can then run `buffett <input_file> <output_file>` from anywhere in your terminal
+
 ## TODO
 
 1. Clean up file writing mechanism
