@@ -18,3 +18,4 @@ You can then run `buffett <input_file> <output_file>` from anywhere in your term
 2. Add unit tests
 3. Add more useful calculations
 4. Use more suitable dtype for price info, `f64` is overkill
+5. add logging
