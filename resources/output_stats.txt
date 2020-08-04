@@ -1,0 +1,7 @@
+stock, open_close_delta, open_close_delta_perc, max_price_delta
+GOOGL, 4.600, 0.003, 29.080
+AAPL, 2.590, 0.006, 9.610
+MSFT, -1.610, -0.008, 4.460
+SNE, 0.540, 0.006, 1.630
+NVDA, 9.820, 0.022, 10.710
+INTC, 0.170, 0.003, 0.590
