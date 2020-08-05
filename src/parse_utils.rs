@@ -6,7 +6,7 @@ use super::stock::Stock;
 
 
 pub fn file_to_stocks(filename: &str) -> Vec<Stock> {
-    // Read file of stock OHLC data and reutnr a Vector of Stocks
+    // Read file of stock OHLC data and return a Vector of Stocks
     let mut v = vec![];
     let file = File::open(filename).unwrap();
     let reader = BufReader::new(file);
