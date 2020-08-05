@@ -1,4 +1,5 @@
 pub struct Stock {
+    // Core struct to represent a stock with OHLC data
     pub name: String,
     pub price_open: f64,
     pub price_high: f64,

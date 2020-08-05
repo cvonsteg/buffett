@@ -6,6 +6,7 @@ use buffett::parse_utils::file_to_stocks;
 
 #[derive(StructOpt)]
 struct Cli {
+    // Helper struct for parsing CLI arguments
     input_file: String,
     output_file: String
 }
