@@ -24,10 +24,10 @@ fn parse_str_to_stock(stock_data: &str) -> Stock {
     let vals: Vec<&str> = stock_data.split(", ").collect();
     return Stock{
         name: String::from(vals[0]),
-        price_open: vals[1].parse::<f64>().unwrap(),
-        price_high: vals[2].parse::<f64>().unwrap(),
-        price_low: vals[3].parse::<f64>().unwrap(),
-        price_close: vals[4].parse::<f64>().unwrap()
+        price_open: vals[1].parse::<f32>().unwrap(),
+        price_high: vals[2].parse::<f32>().unwrap(),
+        price_low: vals[3].parse::<f32>().unwrap(),
+        price_close: vals[4].parse::<f32>().unwrap()
     };
     
 }
